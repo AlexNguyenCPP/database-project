@@ -1,0 +1,47 @@
+<html>
+<body>
+
+<h1> Welcome to cs332g7 database </h1>
+
+<b>
+Students:
+<br>
+For course information, enter the course number. For a list of courses taken, enter CWID.
+</b>
+
+<form method="post" action="queriesCourseInfo.php">
+<br>
+  Course Number: <input type="text" name="Cno">
+  <input type="submit">
+<br>
+</form>
+
+
+<form method="post" action="queries.php">
+  CWID: <input type="text" name="Cwid">
+  <input type="submit">
+  <br>
+<br>
+<br>
+<br>
+</form>
+
+<b>
+Professors:
+<br>
+For professor course information, enter social security number. For student grade counts, enter course and section number.
+</b>
+
+<form method="post" action="queriesSsn.php">
+<br>
+  SSN: <input type = "text" name ="Ssn">
+  <input type="submit">
+</form>
+
+<form method="post" action="queriesGradeCount.php">
+  Course Number: <input type="text" name="Cno">
+  Section Number: <input type="text" name="SectionNo">
+  <input type="submit">
+  <br>
+</form>
+
